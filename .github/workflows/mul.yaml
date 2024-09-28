@@ -19,7 +19,6 @@ jobs:
         run: |
           for i in {1..14}; do
             if [ $i -eq 9 ]; then
-              echo "Skipping number 9"
               continue  # Skip the number 9
             fi
 
