@@ -18,7 +18,7 @@ jobs:
       - name: Display Odd Numbers and Skip 9
         run: |
           #!/bin/bash
-          echo " Printing table of" $num "; echo " GITHUB Action runner"
+          echo " Printing table of" $num 
           num=10
           for (( i=0; i<=10; i++))
           do 
