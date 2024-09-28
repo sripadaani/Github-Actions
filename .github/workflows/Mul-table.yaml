@@ -1,0 +1,31 @@
+name: Evaluate and Display Odd Numbers
+
+on:
+  push:
+    branches:
+      - main  # Change this to any branch you want to trigger on
+
+jobs:
+  evaluate-odd-numbers:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the code (if needed, optional for this task)
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      # Step 2: Execute a script to display odd numbers, skipping 9
+      - name: Display Odd Numbers and Skip 9
+        run: |
+          #!/bin/bash
+          echo " enter table number: "
+          read num
+          echo " enter end number: "
+          read limit
+
+          for (( i=0; i<=limit; i++))
+          do 
+            # x=$(( num*i ))  
+            # echo "$num x $i = $x"
+              echo "$num x $i = " $(( num*i))
+          done 
