@@ -1,4 +1,4 @@
-name: Evaluate and Display Odd Numbers
+name: Display Odd Numbers
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main  # Change this to any branch you want to trigger on
 
 jobs:
-  evaluate-odd-numbers:
+  Odd-numbers:
     runs-on: ubuntu-latest
 
     steps:
