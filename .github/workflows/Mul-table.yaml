@@ -10,10 +10,10 @@ jobs:
   Displaying-Multiplication-Table:
     runs-on: ubuntu-latest
 
-#    steps:
+    steps:
       # Step 1: Checkout the code (if needed, optional for this task)
-#      - name: Checkout Code
- #       uses: actions/checkout@v2
+      - name: Checkout Code
+        uses: actions/checkout@v2
 
       # Step 2: Execute a script to display odd numbers, skipping 9
       - name: Multiplication-table
