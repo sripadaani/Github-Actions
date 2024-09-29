@@ -1,4 +1,4 @@
-name: Evaluate and Display Odd Numbers
+name: Multiplication Table
 
 on:
   push:
