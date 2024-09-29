@@ -7,7 +7,7 @@ on:
 #      - main  # Change this to any branch you want to trigger on
 
 jobs:
-  Odd-numbers:
+  Displaying-Odd-Numbers:
     runs-on: ubuntu-latest
 
     steps:
