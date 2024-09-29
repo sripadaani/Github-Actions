@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v2
 
       # Step 2: Execute a script to display odd numbers, skipping 9
-      - name: Display Odd Numbers and Skip 9
+      - name: Multiplication-table
         run: |
           #!/bin/bash
           echo " Printing table of" $num 
